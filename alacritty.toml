@@ -1,0 +1,51 @@
+[window]
+padding = { x = 0, y = 0 }
+dynamic_padding = false
+
+[selection]
+# Automatically copies selected text to both system clipboard and primary selection
+save_to_clipboard = true
+
+[mouse]
+# Right-click pastes immediately
+bindings = [
+  { mouse = "Right", action = "Paste" }
+]
+
+[scrolling]
+history = 100000
+
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "Fixedsys Excelsior"
+style = "Regular"
+
+[colors.primary]
+background = "#1a2332"
+foreground = "#deddda"
+
+[colors.normal]
+black   = "#1a2332"
+red     = "#ff8484"
+green   = "#c5f467"
+yellow  = "#ffcc5c"
+blue    = "#5cb2ff"
+magenta = "#c16cfa"
+cyan    = "#5cecc6"
+white   = "#ffffff"
+
+[colors.bright]
+black   = "#3e4452"
+red     = "#ff3e3e"
+green   = "#c5f467"
+yellow  = "#ffaf00"
+blue    = "#5cb2ff"
+magenta = "#c16cfa"
+cyan    = "#5cecc6"
+white   = "#5c6370"
